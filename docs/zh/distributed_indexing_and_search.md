@@ -7,6 +7,6 @@
 
 为了保证裂分的均匀性，建议使用 Go 语言实现的 Murmur3 hash 函数:
 
-https://github.com/yanjingang/murmur
+https://github.com/go-ego/murmur
 
 按照上面的原理很容易用 riot 引擎实现分布式搜索（每个裂分服务器运行一个 riot 引擎），但这样的分布式系统多数是高度定制的，比如任务的调度依赖于分布式环境，有时需要添加额外层的服务器以均衡负载，因此就不在这里实现了。
