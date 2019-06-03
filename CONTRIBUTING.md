@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This document explains how to contribute changes to the Ego project. It assumes you have followed the README.md and [API Document](https://github.com/go-ego/riot/tree/master/docs). <!--Sensitive security-related issues should be reported to [security@Ego.io](mailto:security@Ego.io.)-->
+This document explains how to contribute changes to the Ego project. It assumes you have followed the README.md and [API Document](https://github.com/yanjingang/riot/tree/master/docs). <!--Sensitive security-related issues should be reported to [security@Ego.io](mailto:security@Ego.io.)-->
 
 ## Bug reports
 
 Please search the issues on the issue tracker with a variety of keywords to ensure your bug is not already reported.
 
-If unique, [open an issue](https://github.com/go-ego/riot/issues/new) and answer the questions so we can understand and reproduce the problematic behavior.
+If unique, [open an issue](https://github.com/yanjingang/riot/issues/new) and answer the questions so we can understand and reproduce the problematic behavior.
 
 The burden is on you to convince us that it is actually a bug in Ego. This is easiest to do when you write clear, concise instructions so we can reproduce the behavior (even if it seems obvious). The more detailed and specific you are, the faster we will be able to help you. Check out [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html).
 
@@ -18,7 +18,7 @@ Please be kind, remember that Ego comes at no cost to you, and you're getting fr
 
 The project welcomes submissions but please let everyone know what you're working on if you want to change or add something to the Ego repositories.
 
-Before starting to write something new for the Ego project, please [file an issue](https://github.com/go-ego/riot/issues/new). Significant changes must go through the [change proposal process](https://github.com/go-ego/proposals) before they can be accepted.
+Before starting to write something new for the Ego project, please [file an issue](https://github.com/yanjingang/riot/issues/new). Significant changes must go through the [change proposal process](https://github.com/yanjingang/proposals) before they can be accepted.
 
 This process gives everyone a chance to validate the design, helps prevent duplication of effort, and ensures that the idea fits inside the goals for the project and tools. It also checks that the design is sound before code is written; the code review tool is not the place for high-level discussions.
 
@@ -41,7 +41,7 @@ To make sure every PR is checked, we got team maintainers. A maintainer should b
 
 ## Owners
 
-Since Ego is a pure community organization without any company support, Copyright 2016 The go-ego Project Developers.
+Since Ego is a pure community organization without any company support, Copyright 2016 The yanjingang Project Developers.
 
 
 ## Versions
@@ -55,7 +55,7 @@ Since the `master` branch is a tip version, if you wish to use Ego in production
 Code that you contribute should use the standard copyright header:
 
 ```
-// Copyright 2016 The go-ego Project Developers. 
+// Copyright 2016 The yanjingang Project Developers. 
 //
 // Licensed under the Apache License, Version 2.0 (the "License"): you may
 // not use this file except in compliance with the License. You may obtain

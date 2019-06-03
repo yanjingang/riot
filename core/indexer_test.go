@@ -3,7 +3,7 @@ package core
 import (
 	"testing"
 
-	"github.com/go-ego/riot/types"
+	"github.com/yanjingang/riot/types"
 	"github.com/vcaesar/tt"
 )
 
