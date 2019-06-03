@@ -68,23 +68,6 @@ go run examples/simple/main.go
 
 Riot 使用 go module 或 dep 管理依赖. 
 
-## [Build-tools](https://github.com/go-ego/re)
-```
-go get -u github.com/go-ego/re 
-```
-### re riot
-创建 riot 项目
-
-```
-$ re riot my-riotapp
-```
-
-### re run
-
-运行我们创建的 riot 项目, 你可以导航到应用程序文件夹并执行:
-```
-$ cd my-riotapp && re run
-```
 
 ## 使用
 
@@ -180,6 +163,25 @@ func main() {
 #### [benchmark](https://github.com/go-ego/riot/blob/master/examples/benchmark/benchmark.go)
 
 #### [Riot 搜索模板, 客户端和字典](https://github.com/go-ego/riot/tree/master/data)
+
+
+## [Build-tools](https://github.com/go-ego/re)
+```
+go get -u github.com/go-ego/re 
+```
+### re riot
+创建 riot 项目
+
+```
+$ re riot my-riotapp
+```
+
+### re run
+
+运行我们创建的 riot 项目, 你可以导航到应用程序文件夹并执行:
+```
+$ cd my-riotapp && re run
+```
 
 ## 主要改进:
 
