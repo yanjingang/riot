@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/go-ego/gse"
+	"github.com/yanjingang/gse"
 	"github.com/yanjingang/riot/types"
 	"github.com/vcaesar/tt"
 )

@@ -20,7 +20,7 @@ import (
 
 	"strings"
 
-	"github.com/go-ego/gpy"
+	"github.com/yanjingang/gpy"
 	"github.com/yanjingang/riot/types"
 )
 

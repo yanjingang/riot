@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/go-ego/gse"
+	"github.com/yanjingang/gse"
 	"github.com/yanjingang/riot"
 	"github.com/yanjingang/riot/types"
 )
