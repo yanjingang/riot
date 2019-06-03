@@ -10,6 +10,7 @@ require (
 	github.com/dgraph-io/badger v1.5.4
 	github.com/dgryski/go-farm v0.0.0-20180109070241-2de33835d102
 	github.com/fsnotify/fsnotify v1.4.7
+	github.com/go-ego/gse v0.0.0-20190531154331-cad84f3c1a94 // indirect
 	github.com/go-ole/go-ole v1.2.1
 	github.com/go-vgo/grpclb v0.0.0-20181128171039-89526b0a742e
 	github.com/go-vgo/gt v0.0.0-20181207163017-e40d098f9006
