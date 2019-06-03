@@ -1,4 +1,4 @@
-module github.com/go-ego/riot
+module github.com/yanjingang/riot
 
 require (
 	cloud.google.com/go v0.34.0 // indirect
