@@ -2,18 +2,18 @@
 
 <img align="right" src="logo/512px.svg" width="15%"/>
 
-<!--<img align="right" src="https://raw.githubusercontent.com/go-ego/ego/master/logo.jpg">-->
-<!--<a href="https://circleci.com/gh/go-ego/ego/tree/dev"><img src="https://img.shields.io/circleci/project/go-ego/ego/dev.svg" alt="Build Status"></a>-->
-[![CircleCI Status](https://circleci.com/gh/go-ego/riot.svg?style=shield)](https://circleci.com/gh/go-ego/riot)
-![Appveyor](https://ci.appveyor.com/api/projects/status/github/go-ego/riot?branch=master&svg=true)
-[![codecov](https://codecov.io/gh/go-ego/riot/branch/master/graph/badge.svg)](https://codecov.io/gh/go-ego/riot)
-[![Build Status](https://travis-ci.org/go-ego/riot.svg)](https://travis-ci.org/go-ego/riot)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-ego/riot)](https://goreportcard.com/report/github.com/go-ego/riot)
-[![GoDoc](https://godoc.org/github.com/go-ego/riot?status.svg)](https://godoc.org/github.com/go-ego/riot)
-[![GitHub release](https://img.shields.io/github/release/go-ego/riot.svg)](https://github.com/go-ego/riot/releases/latest)
-[![Join the chat at https://gitter.im/go-ego/ego](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-ego/ego?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<!-- [![Release](https://github-release-version.herokuapp.com/github/go-ego/riot/release.svg?style=flat)](https://github.com/go-ego/riot/releases/latest) -->
-<!--<a href="https://github.com/go-ego/ego/releases"><img src="https://img.shields.io/badge/%20version%20-%206.0.0%20-blue.svg?style=flat-square" alt="Releases"></a>-->
+<!--<img align="right" src="https://raw.githubusercontent.com/yanjingang/ego/master/logo.jpg">-->
+<!--<a href="https://circleci.com/gh/yanjingang/ego/tree/dev"><img src="https://img.shields.io/circleci/project/yanjingang/ego/dev.svg" alt="Build Status"></a>-->
+[![CircleCI Status](https://circleci.com/gh/yanjingang/riot.svg?style=shield)](https://circleci.com/gh/yanjingang/riot)
+![Appveyor](https://ci.appveyor.com/api/projects/status/github/yanjingang/riot?branch=master&svg=true)
+[![codecov](https://codecov.io/gh/yanjingang/riot/branch/master/graph/badge.svg)](https://codecov.io/gh/yanjingang/riot)
+[![Build Status](https://travis-ci.org/yanjingang/riot.svg)](https://travis-ci.org/yanjingang/riot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/yanjingang/riot)](https://goreportcard.com/report/github.com/yanjingang/riot)
+[![GoDoc](https://godoc.org/github.com/yanjingang/riot?status.svg)](https://godoc.org/github.com/yanjingang/riot)
+[![GitHub release](https://img.shields.io/github/release/yanjingang/riot.svg)](https://github.com/yanjingang/riot/releases/latest)
+[![Join the chat at https://gitter.im/yanjingang/ego](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yanjingang/ego?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<!-- [![Release](https://github-release-version.herokuapp.com/github/yanjingang/riot/release.svg?style=flat)](https://github.com/yanjingang/riot/releases/latest) -->
+<!--<a href="https://github.com/yanjingang/ego/releases"><img src="https://img.shields.io/badge/%20version%20-%206.0.0%20-blue.svg?style=flat-square" alt="Releases"></a>-->
 
 <!-- ![ego Logo](logo/512px.svg) -->
 Go Open Source, Distributed, Simple and efficient full text search engine.
@@ -23,21 +23,21 @@ Go Open Source, Distributed, Simple and efficient full text search engine.
 # Features
 
 * [Efficient indexing and search](/docs/en/benchmarking.md) (1M blog 500M data 28 seconds index finished, 1.65 ms search response time, 19K search QPS）
-* Support for [logical search](https://github.com/go-ego/riot/blob/master/docs/en/logic.md)
-* Support Chinese word segmentation (use [gse word segmentation package](https://github.com/go-ego/gse) concurrent word, speed 27MB / s）
+* Support for [logical search](https://github.com/yanjingang/riot/blob/master/docs/en/logic.md)
+* Support Chinese word segmentation (use [gse word segmentation package](https://github.com/yanjingang/gse) concurrent word, speed 27MB / s）
 * Support the calculation of the keyword in the text [close to the distance](/docs/en/token_proximity.md)（token proximity）
 * Support calculation [BM25 correlation](/docs/en/bm25.md)
 * Support [custom scoring field and scoring rules](/docs/en/custom_scoring_criteria.md)
 * Support [add online, delete index](/docs/en/realtime_indexing.md)
 * Support heartbeat
 * Support multiple [persistent storage](/docs/en/persistent_storage.md)
-* Support [distributed index and search](https://github.com/go-ego/riot/tree/master/data)
+* Support [distributed index and search](https://github.com/yanjingang/riot/tree/master/data)
 * Can be achieved [distributed index and search](/docs/en/distributed_indexing_and_search.md)
 
-* [Look at Word segmentation rules](https://github.com/go-ego/riot/blob/master/docs/en/segmenter.md)
+* [Look at Word segmentation rules](https://github.com/yanjingang/riot/blob/master/docs/en/segmenter.md)
 
 <!-- 
-Riot v0.20.0 was released in Nov 2017, check the [Changelog](https://github.com/go-ego/riot/blob/master/docs/CHANGELOG.md) for the full details. -->
+Riot v0.20.0 was released in Nov 2017, check the [Changelog](https://github.com/yanjingang/riot/blob/master/docs/CHANGELOG.md) for the full details. -->
 
 ## Requirements
 Go version >= 1.8
@@ -52,9 +52,9 @@ Riot uses go module or dep to manage dependencies.
 go get -u github.com/yanjingang/riot
 ```
 
-## [Build-tools](https://github.com/go-ego/re)
+## [Build-tools](https://github.com/yanjingang/re)
 ```
-go get -u github.com/go-ego/re 
+go get -u github.com/yanjingang/re 
 ```
 ### re riot
 To create a new riot application
@@ -80,8 +80,8 @@ package main
 import (
 	"log"
 
-	"github.com/go-ego/riot"
-	"github.com/go-ego/riot/types"
+	"github.com/yanjingang/riot"
+	"github.com/yanjingang/riot/types"
 )
 
 var (
@@ -127,8 +127,8 @@ package main
 import (
 	"log"
 
-	"github.com/go-ego/riot"
-	"github.com/go-ego/riot/types"
+	"github.com/yanjingang/riot"
+	"github.com/yanjingang/riot/types"
 )
 
 var (
@@ -152,23 +152,23 @@ func main() {
 }
 ```
 
-#### [Look at more Examples](https://github.com/go-ego/riot/tree/master/examples)
+#### [Look at more Examples](https://github.com/yanjingang/riot/tree/master/examples)
 
-#### [Look at Store example](https://github.com/go-ego/riot/blob/master/examples/store/main.go)
-#### [Look at Logic search example](https://github.com/go-ego/riot/blob/master/examples/logic/main.go)
+#### [Look at Store example](https://github.com/yanjingang/riot/blob/master/examples/store/main.go)
+#### [Look at Logic search example](https://github.com/yanjingang/riot/blob/master/examples/logic/main.go)
 
-#### [Look at Pinyin search example](https://github.com/go-ego/riot/blob/master/examples/pinyin/main.go)
+#### [Look at Pinyin search example](https://github.com/yanjingang/riot/blob/master/examples/pinyin/main.go)
 
-#### [Look at different dict and language search example](https://github.com/go-ego/riot/blob/master/examples/dict/main.go)
+#### [Look at different dict and language search example](https://github.com/yanjingang/riot/blob/master/examples/dict/main.go)
 
-#### [Look at benchmark example](https://github.com/go-ego/riot/blob/master/examples/benchmark/benchmark.go)
+#### [Look at benchmark example](https://github.com/yanjingang/riot/blob/master/examples/benchmark/benchmark.go)
 
-#### [Riot search engine templates, client and dictionaries](https://github.com/go-ego/riot/tree/master/data)
+#### [Riot search engine templates, client and dictionaries](https://github.com/yanjingang/riot/tree/master/data)
 
 ## Authors
 * [The author is vz](https://github.com/vcaesar)
-* [Maintainers](https://github.com/orgs/go-ego/people)
-* [Contributors](https://github.com/go-ego/riot/graphs/contributors)
+* [Maintainers](https://github.com/orgs/yanjingang/people)
+* [Contributors](https://github.com/yanjingang/riot/graphs/contributors)
 
 ## Donate
 
