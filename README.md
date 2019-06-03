@@ -49,7 +49,7 @@ Riot uses go module or dep to manage dependencies.
 ## Installation/Update
 
 ```
-go get -u github.com/go-ego/riot
+go get -u github.com/yanjingang/riot
 ```
 
 ## [Build-tools](https://github.com/go-ego/re)
