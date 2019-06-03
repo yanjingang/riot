@@ -42,10 +42,6 @@ github.com/go-ego/gse v0.0.0-20190129002529-45bfc8a37d9a h1:yrCm9j3MohxyQ371Akb7
 github.com/go-ego/gse v0.0.0-20190129002529-45bfc8a37d9a/go.mod h1:r/HlqrUfC3sILWwWVpVPyBm2OElARmMSmUpmDZPOqfM=
 github.com/go-ego/gse v0.0.0-20190531154331-cad84f3c1a94 h1:OZ1cGAa5acRvo0kZNlszQST+e6PiOK728llBdMTKo60=
 github.com/go-ego/gse v0.0.0-20190531154331-cad84f3c1a94/go.mod h1:bXTR/mJDmMAtfy6cjdy6NmEPLRgiCUoG2rv75sZg8Lk=
-github.com/yanjingang/murmur v0.0.0-20181019172721-24868d0e6e66 h1:1QyAiNbCfYM1TKNufH6qAnI5SeI8Ec8hKtunT9dCFB4=
-github.com/yanjingang/murmur v0.0.0-20181019172721-24868d0e6e66/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
-github.com/yanjingang/murmur v0.0.0-20181129155752-fac557227e04 h1:2dKx9zU7DGtGaLA1Ayg3GCYpthRrA6vfmHYqtx79Dvs=
-github.com/yanjingang/murmur v0.0.0-20181129155752-fac557227e04/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
 github.com/go-kit/kit v0.8.0/go.mod h1:xBxKIO96dXMWWy0MnWVtmwkA9/13aqxPnvrjFYMA2as=
 github.com/go-logfmt/logfmt v0.4.0/go.mod h1:3RMwSq7FuexP4Kalkev3ejPJsZTpXXBr9+V4qmtdjCk=
 github.com/go-ole/go-ole v1.2.1/go.mod h1:7FAglXiTm7HKlQRDeOQ6ZNUHidzCWXuZWq/1dTyBNF8=
@@ -129,6 +125,12 @@ github.com/yanjingang/cedar v0.0.0-20190115165203-632caacce2cd h1:91Y6dD3hIxQMsz
 github.com/yanjingang/cedar v0.0.0-20190115165203-632caacce2cd/go.mod h1:TMuo5n9ZbmInm6IKEHqoCsW0EDYufNXKUQ/rqoZpPZE=
 github.com/yanjingang/gpy v0.0.0-20190603131731-6c748fd36146/go.mod h1:RWaRj/1LgW7UefaDba6GuN7h0MsiNFVgGwB1F32haQE=
 github.com/yanjingang/gse v0.0.0-20190603131105-4e1b9272e1bc/go.mod h1:gLQrBahQWVq4vWFNhIx3gI3EnsFoC8ZEyxqfAMTQSiY=
+github.com/yanjingang/murmur v0.0.0-20181019172721-24868d0e6e66 h1:1QyAiNbCfYM1TKNufH6qAnI5SeI8Ec8hKtunT9dCFB4=
+github.com/yanjingang/murmur v0.0.0-20181019172721-24868d0e6e66/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
+github.com/yanjingang/murmur v0.0.0-20181129155752-fac557227e04 h1:2dKx9zU7DGtGaLA1Ayg3GCYpthRrA6vfmHYqtx79Dvs=
+github.com/yanjingang/murmur v0.0.0-20181129155752-fac557227e04/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
+github.com/yanjingang/murmur v0.0.0-20190603131329-22d2b046f025 h1:rD4R8YFOKxmb+ui9GgToh7Wve9ykg2EZy588prCmxdc=
+github.com/yanjingang/murmur v0.0.0-20190603131329-22d2b046f025/go.mod h1:aM7EnagZsfgDCThrsjsbtSOVPp5Zc0v0liyt+e/MC1w=
 github.com/yanjingang/riot v0.0.0-20190307162011-3d971d90bc83 h1:nd9aW/wl1yNj+FcNXOvXdPX9eF9nYwms5u538qoEvsE=
 github.com/yanjingang/riot v0.0.0-20190307162011-3d971d90bc83/go.mod h1:fUlv4hLYG+hWjQG4t2AXl4yhgcVzajSGqJ1pjQLsHSc=
 github.com/yincongcyincong/proxy-web v0.0.0-20190211080025-041af66fdf9a h1:sxO0GqGxhKwYQVvdfrO4GPTHw90iiRr07BcmSCI4Qa0=
