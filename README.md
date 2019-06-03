@@ -2,10 +2,8 @@
 
 <!--<img align="right" src="https://raw.githubusercontent.com/yanjingang/ego/master/logo.jpg">-->
 <!--<a href="https://circleci.com/gh/yanjingang/ego/tree/dev"><img src="https://img.shields.io/circleci/project/yanjingang/ego/dev.svg" alt="Build Status"></a>-->
-[![CircleCI Status](https://circleci.com/gh/yanjingang/riot.svg?style=shield)](https://circleci.com/gh/yanjingang/riot)
 ![Appveyor](https://ci.appveyor.com/api/projects/status/github/yanjingang/riot?branch=master&svg=true)
 [![codecov](https://codecov.io/gh/yanjingang/riot/branch/master/graph/badge.svg)](https://codecov.io/gh/yanjingang/riot)
-[![Build Status](https://travis-ci.org/yanjingang/riot.svg)](https://travis-ci.org/yanjingang/riot)
 [![Go Report Card](https://goreportcard.com/badge/github.com/yanjingang/riot)](https://goreportcard.com/report/github.com/yanjingang/riot)
 [![GoDoc](https://godoc.org/github.com/yanjingang/riot?status.svg)](https://godoc.org/github.com/yanjingang/riot)
 [![GitHub release](https://img.shields.io/github/release/yanjingang/riot.svg)](https://github.com/yanjingang/riot/releases/latest)
