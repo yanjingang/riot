@@ -18,7 +18,7 @@
 <!-- ![ego Logo](logo/512px.svg) -->
 Go Open Source, Distributed, Simple and efficient full text search engine.
 
-[简体中文](https://github.com/go-ego/riot/blob/master/README_zh.md)
+[简体中文](https://github.com/yanjingang/riot/blob/master/README_zh.md)
 
 # Features
 
