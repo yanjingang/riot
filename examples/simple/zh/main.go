@@ -23,7 +23,7 @@ func main() {
 	searcher.Init(types.EngineOpts{
 		Using: 3,
 		// IDOnly:        true,
-		GseDict: "../../../data/dict/dictionary.txt",
+		GseDict: "data/dict/dictionary.txt",
 	})
 	defer searcher.Close()
 
