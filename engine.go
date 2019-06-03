@@ -38,7 +38,7 @@ import (
 	"github.com/yanjingang/riot/utils"
 
 	"github.com/go-ego/gse"
-	"github.com/go-ego/murmur"
+	"github.com/yanjingang/murmur"
 	"github.com/shirou/gopsutil/mem"
 )
 

@@ -12,7 +12,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/go-ego/gpy v0.0.0-20181128170341-b6d42325845c
 	github.com/go-ego/gse v0.0.0-20190129002529-45bfc8a37d9a
-	github.com/go-ego/murmur v0.0.0-20181129155752-fac557227e04
+	github.com/yanjingang/murmur v0.0.0-20181129155752-fac557227e04
 	github.com/yanjingang/riot v0.0.0-20190307162011-3d971d90bc83
 	github.com/go-ole/go-ole v1.2.1
 	github.com/go-vgo/grpclb v0.0.0-20181128171039-89526b0a742e

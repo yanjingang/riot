@@ -44,10 +44,10 @@ github.com/go-ego/gse v0.0.0-20181123163408-e361db41b9da h1:7FU8ZhSzoX0AeenlYk5D
 github.com/go-ego/gse v0.0.0-20181123163408-e361db41b9da/go.mod h1:TMiDGo3M5vwXFVdOq1uD3zbXNdgqR1r69HO1eNAVw74=
 github.com/go-ego/gse v0.0.0-20190129002529-45bfc8a37d9a h1:yrCm9j3MohxyQ371Akb7wG/xVt+K539rJ70+tBBKpSg=
 github.com/go-ego/gse v0.0.0-20190129002529-45bfc8a37d9a/go.mod h1:r/HlqrUfC3sILWwWVpVPyBm2OElARmMSmUpmDZPOqfM=
-github.com/go-ego/murmur v0.0.0-20181019172721-24868d0e6e66 h1:1QyAiNbCfYM1TKNufH6qAnI5SeI8Ec8hKtunT9dCFB4=
-github.com/go-ego/murmur v0.0.0-20181019172721-24868d0e6e66/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
-github.com/go-ego/murmur v0.0.0-20181129155752-fac557227e04 h1:2dKx9zU7DGtGaLA1Ayg3GCYpthRrA6vfmHYqtx79Dvs=
-github.com/go-ego/murmur v0.0.0-20181129155752-fac557227e04/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
+github.com/yanjingang/murmur v0.0.0-20181019172721-24868d0e6e66 h1:1QyAiNbCfYM1TKNufH6qAnI5SeI8Ec8hKtunT9dCFB4=
+github.com/yanjingang/murmur v0.0.0-20181019172721-24868d0e6e66/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
+github.com/yanjingang/murmur v0.0.0-20181129155752-fac557227e04 h1:2dKx9zU7DGtGaLA1Ayg3GCYpthRrA6vfmHYqtx79Dvs=
+github.com/yanjingang/murmur v0.0.0-20181129155752-fac557227e04/go.mod h1:WocLQI5wTl0GeQ+h144mrLx1vyFZkoOxGKlzD7xlqdc=
 github.com/yanjingang/riot v0.0.0-20190307162011-3d971d90bc83 h1:nd9aW/wl1yNj+FcNXOvXdPX9eF9nYwms5u538qoEvsE=
 github.com/yanjingang/riot v0.0.0-20190307162011-3d971d90bc83/go.mod h1:fUlv4hLYG+hWjQG4t2AXl4yhgcVzajSGqJ1pjQLsHSc=
 github.com/go-kit/kit v0.8.0/go.mod h1:xBxKIO96dXMWWy0MnWVtmwkA9/13aqxPnvrjFYMA2as=

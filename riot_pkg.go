@@ -23,7 +23,7 @@ import (
 	// _ "github.com/cznic/kv"
 	_ "github.com/dgraph-io/badger"
 	_ "github.com/go-ego/gse"
-	_ "github.com/go-ego/murmur"
+	_ "github.com/yanjingang/murmur"
 	_ "github.com/syndtr/goleveldb/leveldb"
 	_ "go.etcd.io/bbolt"
 )
