@@ -10,7 +10,6 @@ require (
 	github.com/dgraph-io/badger v1.5.4
 	github.com/dgryski/go-farm v0.0.0-20180109070241-2de33835d102
 	github.com/fsnotify/fsnotify v1.4.7
-	github.com/go-ego/gse v0.0.0-20190531154331-cad84f3c1a94 // indirect
 	github.com/go-ole/go-ole v1.2.1
 	github.com/go-vgo/grpclb v0.0.0-20181128171039-89526b0a742e
 	github.com/go-vgo/gt v0.0.0-20181207163017-e40d098f9006
@@ -23,10 +22,8 @@ require (
 	github.com/shirou/gopsutil v2.18.11+incompatible
 	github.com/syndtr/goleveldb v0.0.0-20181128100959-b001fa50d6b2
 	github.com/vcaesar/tt v0.0.0-20190311143935-d2abd51da7af
-	//github.com/yanjingang/gpy v0.0.0-20181128170341-b6d42325845c
 	github.com/yanjingang/gpy v0.0.0-20190603131731-6c748fd36146
-	// github.com/yanjingang/gse v0.0.0-20190129002529-45bfc8a37d9a
-	github.com/yanjingang/gse v0.0.0-20190603131105-4e1b9272e1bc
+	github.com/yanjingang/gse v0.0.0-20190603140800-3e57b850144c
 	github.com/yanjingang/murmur v0.0.0-20190603131329-22d2b046f025
 	github.com/yincongcyincong/proxy-web v0.0.0-20190211080025-041af66fdf9a // indirect
 	// not github
