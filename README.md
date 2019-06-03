@@ -1,6 +1,4 @@
-# Riot search
-
-<img align="right" src="logo/512px.svg" width="15%"/>
+# [Riot 搜索引擎](https://github.com/go-ego/riot)
 
 <!--<img align="right" src="https://raw.githubusercontent.com/go-ego/ego/master/logo.jpg">-->
 <!--<a href="https://circleci.com/gh/go-ego/ego/tree/dev"><img src="https://img.shields.io/circleci/project/go-ego/ego/dev.svg" alt="Build Status"></a>-->
@@ -12,52 +10,70 @@
 [![GoDoc](https://godoc.org/github.com/go-ego/riot?status.svg)](https://godoc.org/github.com/go-ego/riot)
 [![GitHub release](https://img.shields.io/github/release/go-ego/riot.svg)](https://github.com/go-ego/riot/releases/latest)
 [![Join the chat at https://gitter.im/go-ego/ego](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-ego/ego?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<!-- [![Release](https://github-release-version.herokuapp.com/github/go-ego/riot/release.svg?style=flat)](https://github.com/go-ego/riot/releases/latest) -->
 <!--<a href="https://github.com/go-ego/ego/releases"><img src="https://img.shields.io/badge/%20version%20-%206.0.0%20-blue.svg?style=flat-square" alt="Releases"></a>-->
 
-<!-- ![ego Logo](logo/512px.svg) -->
-Go Open Source, Distributed, Simple and efficient full text search engine.
 
-[简体中文](https://github.com/yanjingang/riot/blob/master/README_zh.md)
+Go Open Source, Distributed, Simple and efficient full text search engine.
 
 # Features
 
-* [Efficient indexing and search](/docs/en/benchmarking.md) (1M blog 500M data 28 seconds index finished, 1.65 ms search response time, 19K search QPS）
-* Support for [logical search](https://github.com/go-ego/riot/blob/master/docs/en/logic.md)
-* Support Chinese word segmentation (use [gse word segmentation package](https://github.com/go-ego/gse) concurrent word, speed 27MB / s）
-* Support the calculation of the keyword in the text [close to the distance](/docs/en/token_proximity.md)（token proximity）
-* Support calculation [BM25 correlation](/docs/en/bm25.md)
-* Support [custom scoring field and scoring rules](/docs/en/custom_scoring_criteria.md)
-* Support [add online, delete index](/docs/en/realtime_indexing.md)
-* Support heartbeat
-* Support multiple [persistent storage](/docs/en/persistent_storage.md)
-* Support [distributed index and search](https://github.com/go-ego/riot/tree/master/data)
-* Can be achieved [distributed index and search](/docs/en/distributed_indexing_and_search.md)
+* [高效索引和搜索](/docs/zh/benchmarking.md)（1M 条微博 500M 数据28秒索引完，1.65毫秒搜索响应时间，19K 搜索 QPS）
+* 支持中文分词（使用 [gse 分词包](https://github.com/go-ego/gse)并发分词，速度 27MB/秒）
+* 支持[逻辑搜索](https://github.com/go-ego/riot/blob/master/docs/zh/logic.md)
+* 支持中文转拼音搜索(使用 [gpy](https://github.com/go-ego/gpy) 中文转拼音)
+* 支持计算关键词在文本中的[紧邻距离](/docs/zh/token_proximity.md)（token proximity）
+* 支持计算[BM25相关度](/docs/zh/bm25.md)
+* 支持[自定义评分字段和评分规则](/docs/zh/custom_scoring_criteria.md)
+* 支持[在线添加、删除索引](/docs/zh/realtime_indexing.md)
+* 支持多种[持久存储](/docs/zh/persistent_storage.md)
+* 支持 heartbeat
+* 支持[分布式索引和搜索](https://github.com/go-ego/riot/tree/master/data)
+* 可实现[分布式索引和搜索](/docs/zh/distributed_indexing_and_search.md)
+* 采用对商业应用友好的[Apache License v2](/LICENSE)发布
 
-* [Look at Word segmentation rules](https://github.com/go-ego/riot/blob/master/docs/en/segmenter.md)
-
+* [查看分词规则](https://github.com/go-ego/riot/blob/master/docs/zh/segmenter.md)
 <!-- 
-Riot v0.20.0 was released in Nov 2017, check the [Changelog](https://github.com/go-ego/riot/blob/master/docs/CHANGELOG.md) for the full details. -->
+Riot v0.10.0 was released in Nov 2017, check the [Changelog](https://github.com/go-ego/riot/blob/master/docs/CHANGELOG.md) for the full details. -->
+
+QQ 群: 120563750
+
+## 安装/更新
+
+```
+#配置GOPROXY
+ vim ~/.bashrc
+  #go
+  export GO111MODULE=on
+  export GOPROXY=https://goproxy.io
+
+source ~/.bashrc
+
+#直接安装
+go get -u github.com/yanjingang/riot
+
+#本地编译
+git clone https://github.com/yanjingang/riot.git
+cd riot
+go build
+
+#测试
+go run examples/simple/main.go 
+```
 
 ## Requirements
-Go version >= 1.8
+
+需要 Go 版本至少 1.8
 
 ### Dependencies
 
-Riot uses go module or dep to manage dependencies. 
-
-## Installation/Update
-
-```
-go get -u github.com/yanjingang/riot
-```
+Riot 使用 go module 或 dep 管理依赖. 
 
 ## [Build-tools](https://github.com/go-ego/re)
 ```
 go get -u github.com/go-ego/re 
 ```
 ### re riot
-To create a new riot application
+创建 riot 项目
 
 ```
 $ re riot my-riotapp
@@ -65,15 +81,14 @@ $ re riot my-riotapp
 
 ### re run
 
-To run the application we just created, you can navigate to the application folder and execute:
+运行我们创建的 riot 项目, 你可以导航到应用程序文件夹并执行:
 ```
 $ cd my-riotapp && re run
 ```
 
-## Usage:
+## 使用
 
-#### [Look at an example](/examples/simple/main.go)
-
+先看一个例子（来自 [simplest_example.go](/examples/simple/zh/main.go)）
 ```go
 package main
 
@@ -85,41 +100,42 @@ import (
 )
 
 var (
-	// searcher is coroutine safe
+	// searcher 是协程安全的
 	searcher = riot.Engine{}
 )
 
 func main() {
-	// Init
+	// 初始化
 	searcher.Init(types.EngineOpts{
-		// Using:             4,
-		NotUseGse: true,
-		})
+		Using:             3,
+		GseDict: "zh",
+		// GseDict: "your gopath"+"/src/github.com/go-ego/riot/data/dict/dictionary.txt",
+	})
 	defer searcher.Close()
 
-	text := "Google Is Experimenting With Virtual Reality Advertising"
-	text1 := `Google accidentally pushed Bluetooth update for Home
-	speaker early`
-	text2 := `Google is testing another Search results layout with 
-	rounded cards, new colors, and the 4 mysterious colored dots again`
+	text := "《复仇者联盟3：无限战争》是全片使用IMAX摄影机拍摄"
+	text1 := "在IMAX影院放映时"
+	text2 := "全片以上下扩展至IMAX 1.9：1的宽高比来呈现"
 	
-	// Add the document to the index, docId starts at 1
+	// 将文档加入索引，docId 从1开始
 	searcher.Index("1", types.DocData{Content: text})
 	searcher.Index("2", types.DocData{Content: text1}, false)
-	searcher.IndexDoc("3", types.DocData{Content: text2}, true)
+	searcher.Index("3", types.DocData{Content: text2}, true)
 
-	// Wait for the index to refresh
+	// 等待索引刷新完毕
 	searcher.Flush()
 	// engine.FlushIndex()
 
-	// The search output format is found in the types.SearchResp structure
-	log.Print(searcher.Search(types.SearchReq{Text:"google testing"}))
+	// 搜索输出格式见 types.SearchResp 结构体
+	log.Print(searcher.Search(types.SearchReq{Text:"复仇者"}))
 }
 ```
 
-It is very simple!
+是不是很简单！
 
-### Use default engine:
+然后看看一个[入门教程](/docs/zh/codelab.md)，教你用不到200行 Go 代码实现一个微博搜索网站。
+
+### 使用默认引擎:
 
 ```Go
 package main
@@ -143,7 +159,7 @@ func main() {
 
 	searcher.Index("1", data)
 	searcher.Index("2", data1)
-	searcher.Index("3", data2)
+	searcher.IndexDoc("3", data2)
 	searcher.Flush()
 
 	req := types.SearchReq{Text: "你好"}
@@ -152,18 +168,29 @@ func main() {
 }
 ```
 
-#### [Look at more Examples](https://github.com/go-ego/riot/tree/master/examples)
+#### [查看更多例子](https://github.com/go-ego/riot/tree/master/examples)
 
-#### [Look at Store example](https://github.com/go-ego/riot/blob/master/examples/store/main.go)
-#### [Look at Logic search example](https://github.com/go-ego/riot/blob/master/examples/logic/main.go)
+#### [持久化的例子](https://github.com/go-ego/riot/blob/master/examples/store/main.go)
+#### [逻辑搜索的例子](https://github.com/go-ego/riot/blob/master/examples/logic/main.go)
 
-#### [Look at Pinyin search example](https://github.com/go-ego/riot/blob/master/examples/pinyin/main.go)
+#### [拼音搜索的例子](https://github.com/go-ego/riot/blob/master/examples/pinyin/main.go)
 
-#### [Look at different dict and language search example](https://github.com/go-ego/riot/blob/master/examples/dict/main.go)
+#### [不同字典和语言例子](https://github.com/go-ego/riot/blob/master/examples/dict/main.go)
 
-#### [Look at benchmark example](https://github.com/go-ego/riot/blob/master/examples/benchmark/benchmark.go)
+#### [benchmark](https://github.com/go-ego/riot/blob/master/examples/benchmark/benchmark.go)
 
-#### [Riot search engine templates, client and dictionaries](https://github.com/go-ego/riot/tree/master/data)
+#### [Riot 搜索模板, 客户端和字典](https://github.com/go-ego/riot/tree/master/data)
+
+## 主要改进:
+
+- 增加逻辑搜索 
+- 增加拼音搜索 
+- 增加分布式 
+- 分词等改进 
+- 增加更多 api
+- 支持 heartbeat
+- 修复 bug
+- 删除依赖 cgo 的存储引擎, 增加 badger和 leveldb 持久化引擎
 
 ## Authors
 * [The author is vz](https://github.com/vcaesar)
@@ -172,11 +199,16 @@ func main() {
 
 ## Donate
 
-Supporting riot, [buy me a coffee](https://github.com/go-vgo/buy-me-a-coffee).
+支持 riot, [buy me a coffee](https://github.com/go-vgo/buy-me-a-coffee).
 
 #### Paypal
 
 Donate money by [paypal](https://www.paypal.me/veni0/25) to my account [vzvway@gmail.com](vzvway@gmail.com)
+
+## 其它
+
+* [为什么要有 riot 引擎](/docs/zh/why_riot.md)
+* [联系方式](/docs/zh/feedback.md)
 
 ## License
 
