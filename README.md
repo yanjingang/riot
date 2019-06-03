@@ -57,7 +57,7 @@ cd riot
 go build
 
 #测试
-go run examples/simple/main.go 
+go run examples/simple/zh/main.go 
 ```
 
 ## Requirements
