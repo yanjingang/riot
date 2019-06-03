@@ -1,4 +1,4 @@
-# [Riot 搜索引擎](https://github.com/yanjingang/riot)
+# [Riot 检索引擎](https://github.com/yanjingang/riot)
 
 <!--<img align="right" src="https://raw.githubusercontent.com/yanjingang/ego/master/logo.jpg">-->
 <!--<a href="https://circleci.com/gh/yanjingang/ego/tree/dev"><img src="https://img.shields.io/circleci/project/yanjingang/ego/dev.svg" alt="Build Status"></a>-->
