@@ -55,9 +55,12 @@ go get -u github.com/yanjingang/riot
 git clone https://github.com/yanjingang/riot.git
 cd riot
 go build
+*注：本地编译修改依赖库url时，需要把go.mod里的对应version改为master后重新go build
+
 
 #测试
 go run examples/simple/zh/main.go 
+
 ```
 
 ## Requirements
