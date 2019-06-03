@@ -40,7 +40,7 @@ QQ 群: 120563750
 ## 安装/更新
 
 ```
-#配置GOPROXY
+#0.配置GOPROXY
  vim ~/.bashrc
   #go
   export GO111MODULE=on
@@ -48,10 +48,10 @@ QQ 群: 120563750
 
 source ~/.bashrc
 
-#直接安装
+#1.直接安装
 go get -u github.com/yanjingang/riot
 
-#本地编译
+#或 本地编译
 git clone https://github.com/yanjingang/riot.git
 cd riot
 go build
