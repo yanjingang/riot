@@ -11,9 +11,8 @@ require (
 	github.com/dgryski/go-farm v0.0.0-20180109070241-2de33835d102
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/go-ego/gpy v0.0.0-20181128170341-b6d42325845c
-	github.com/go-ego/gse v0.0.0-20190129002529-45bfc8a37d9a
+	github.com/go-ego/gse v0.0.0-20190531154331-cad84f3c1a94
 	github.com/go-ego/murmur v0.0.0-20181129155752-fac557227e04
-	github.com/yanjingang/riot v0.0.0-20190307162011-3d971d90bc83
 	github.com/go-ole/go-ole v1.2.1
 	github.com/go-vgo/grpclb v0.0.0-20181128171039-89526b0a742e
 	github.com/go-vgo/gt v0.0.0-20181207163017-e40d098f9006
@@ -25,7 +24,11 @@ require (
 	github.com/pkg/errors v0.8.0
 	github.com/shirou/gopsutil v2.18.11+incompatible
 	github.com/syndtr/goleveldb v0.0.0-20181128100959-b001fa50d6b2
-	github.com/vcaesar/tt v0.0.0-20190128173424-2874d9a357d3
+	github.com/vcaesar/tt v0.0.0-20190311143935-d2abd51da7af
+	//github.com/go-ego/gpy v0.0.0-20181128170341-b6d42325845c
+	github.com/yanjingang/gpy v0.0.0-20190603131731-6c748fd36146
+	// github.com/go-ego/gse v0.0.0-20190129002529-45bfc8a37d9a
+	github.com/yanjingang/gse v0.0.0-20190603131105-4e1b9272e1bc
 	github.com/yincongcyincong/proxy-web v0.0.0-20190211080025-041af66fdf9a // indirect
 	// not github
 	go.etcd.io/bbolt v1.3.1-etcd.7
