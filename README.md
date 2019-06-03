@@ -35,7 +35,6 @@ Go Open Source, Distributed, Simple and efficient full text search engine.
 <!-- 
 Riot v0.10.0 was released in Nov 2017, check the [Changelog](https://github.com/yanjingang/riot/blob/master/docs/CHANGELOG.md) for the full details. -->
 
-QQ 群: 120563750
 
 ## 安装/更新
 
@@ -213,7 +212,8 @@ Donate money by [paypal](https://www.paypal.me/veni0/25) to my account [vzvway@g
 ## 其它
 
 * [为什么要有 riot 引擎](/docs/zh/why_riot.md)
-* [联系方式](/docs/zh/feedback.md)
+* [联系方式](/docs/zh/feedback.md) 
+* QQ 群: 120563750
 
 ## License
 
